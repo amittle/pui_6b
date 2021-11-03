@@ -1,0 +1,559 @@
+html, body {
+    font-family: 'Rosario', sans-serif;
+    font-size: 20px;
+    color:rgba(132, 95, 110, 1);
+    
+
+
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+a {
+    color: rgba(132, 95, 110, 1);
+    text-decoration: none;
+}
+
+#header {
+    position: absolute;
+    background-color: rgba(242, 205, 220, 1);
+    width: 1024px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Rouge Script', cursive;
+    position: relative;
+    width: 600px;
+    height: 94px;
+    left: 254px;
+    top: -40px;  
+}
+
+#logo_img {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 74px;
+    top: 10px;
+
+}
+
+#cart {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 944px;
+    top: 20px;
+
+}
+
+#cart_num{
+    position: absolute;
+    left: 950px;
+    top: -5px;
+    z-index: 1000;
+
+}
+
+#links {
+    position: absolute;
+    left: 200px;
+    top: 80px;
+}
+
+li {
+    display: inline-block;
+    background-color: rgba(255, 239, 246, 1);
+    border-radius: 15px;
+    width: 200px;
+    height: 75px;
+    margin: 20px;
+    text-align: center;
+
+}
+
+li a {
+    position: relative;
+    top: 20px;
+}
+
+.popup {
+    background-color: rgba(255, 239, 246, 1);
+}
+
+.popup_container {
+    background-color: rgba(132, 95, 110, .75);
+    position: absolute;
+    z-index: 100;
+    width: 630px;
+    height: 275px;
+    left: 289px;
+    top: 363px;
+}
+
+.popup {
+    background-color: rgba(255, 239, 246, 1);
+    position: absolute;
+    width: 590px;
+    height: 235px;
+    left: 20px;
+    top: 20px;
+}
+
+
+#popup_img {
+    position: absolute;
+    width: 183px;
+    height: 147px;
+    left: 20px;
+    top: 64px;
+
+}
+
+#popup_info {
+    position: relative;
+    left: 225px;
+}
+
+#popup_info h3{
+    position: relative;
+    top: -20px;
+    width: 350px;
+}
+
+#glaze_drop {
+    position: relative;
+    width: 286px;
+    height: 44px;
+    top: -35px;
+    background-color: rgba(132, 95, 110, 0.2);
+    border-radius: 15px;
+}
+
+#glaze_drop h3 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+}
+
+.drop_comp {
+    position: relative;
+    top:-20px;
+    display: inline-block;
+
+}
+
+#drop_down1 {
+    position:relative;
+    width: 117px;
+    height: 40px;
+    top: -50px;
+    left: 150px;
+    background-color: rgba(255, 239, 246, 1);
+}
+
+
+/*NONE*/
+.droptext {
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+/*
+START CART DROP
+*/
+
+#cart_drop {
+    position: relative;
+    width: 286px;
+    height: 44px;
+    top: -50px;
+    background-color: rgba(132, 95, 110, 0.2);
+    border-radius: 15px;
+}
+
+#cart_drop h3 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+}
+
+.drop_comp {
+    position: relative;
+    top:-20px;
+    display: inline-block;
+
+}
+
+#drop_down2 {
+    position:relative;
+    width: 117px;
+    height: 40px;
+    top: -50px;
+    left: 150px;
+    background-color: rgba(255, 239, 246, 1);
+}
+
+
+/*NONE*/
+.droptext {
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+
+/*
+END CART DROP
+*/
+
+
+#About_Us {
+    position: absolute;
+    background-color: rgba(255, 239, 246, 1);
+    border-radius: 15px;
+    width: 200px;
+    height: 75px;
+    left: 504px;
+    top: 213px;
+}
+
+#About_Us h2 {
+    position: absolute;
+    left: 40px;
+    top: -20px;
+}
+
+#About_Us img {
+    position: absolute;
+    left: 80px;
+    top: 45px;
+}
+
+#Products {
+    position: absolute;
+    width: 680px;
+    height: 428px;
+    left: 278px;
+    top: 300px;  
+}
+
+.Listing {
+    display: inline-block;
+    background-color: rgba(255, 239, 246, 1);
+    border-radius: 15px;
+    margin: 14px 20px 20px 14px;
+    margin-inline-start: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.Listing img{
+    position:relative;
+    top: 31px;
+    left: 25px;
+}
+
+.Listing h2{
+    text-align: center;
+}
+
+/*
+BUILD
+*/
+.left_panel{
+    position: absolute;
+    width: 264px;
+    height: 540px;
+    left: 0px;
+    top: 220px;
+}
+
+
+#sidebar {
+    background-color: rgba(132, 95, 110, 0.75);
+}
+
+.build_step, .cross_panel{
+    position: absolute;
+    background-color: rgba(255, 239, 246, 1);
+    border: 1px solid #845F6E;
+    width: 680px;
+    left: 264px;
+}
+
+#step_labels li {
+    margin-top: 10px;
+    text-align: right;
+}
+
+#info {
+    position: relative;
+    top: 15px;
+    left: 8px;
+
+}
+
+#sizes_step {
+    height: 180px;
+    top: 220px;
+}
+
+#sizes_opts {
+    position: relative;
+    top: 35px;
+
+}
+
+#sizes_opts img{
+    margin-left: 20px;
+}
+
+
+#GF_step {
+    height: 90px;
+    top: 400px;
+
+}
+
+#gf_opts {
+    position: relative;
+    top: 30px;
+    left: 65px;
+}
+
+#gf_opts img {
+    margin-right: 100px;
+}
+
+#flavors_step {
+    height: 270px;
+    top: 490px;
+}
+
+#flavors_step h2{
+    position: relative;
+    top: -25px;
+    margin-bottom: 125px;
+}
+
+span.light{
+    font-weight: 100;
+}
+
+.drag_item {
+    position: absolute;
+    background-color: rgba(255, 239, 246, 1);
+    border-radius: 15px;
+    width: 135px;
+    height: 52px;
+    text-align: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.drag_item h3 {
+    font-size: 24px;
+}
+
+#original_drag {
+    top: 37px;
+    left: 12px;
+}
+
+#bb_drag {
+    top: 37px;
+    left: 154px;
+    width: 168px;
+}
+
+#walnut_drag {
+    top: 37px;
+    left: 333px;
+    width: 165px;
+}
+
+#gf_drag {
+    top: 108px;
+    left: 12px;
+}
+
+#ps_drag {
+    top: 108px;
+    left: 154px;
+    width: 168px;
+}
+
+#cp_drag {
+    top: 108px;
+    left: 333px;
+    width: 165px;
+}
+
+#sugar_drag {
+    top: 202px;
+    left: 12px;
+    width: 112px;
+}
+
+#vanilla_drag {
+    top: 202px;
+    left: 136px;
+    width: 112px;
+}
+
+#chocolate_drag {
+    top: 202px;
+    left: 260px;
+    width: 112px;
+}
+
+#noglaze_drag {
+    top: 202px;
+    left: 384px;
+    width: 112px;
+}
+
+#drop_zone {
+    position: absolute;
+    top: 49px;
+    left: 516px;
+}
+
+#undo {
+    position: absolute;
+    top: 5px;
+    left: 635px;
+
+}
+
+#add_cart {
+    position: absolute;
+    background-color: rgba(255, 239, 246, 1);
+    border-radius: 15px;
+    border: 1px solid #845F6E;
+    width: 164px;
+    height: 75px;
+    top: 191px;
+    left: 512px;
+    text-align: center;
+}
+
+#add_cart h3 {
+    font-size: 24px;
+}
+
+/*CART PAGE*/
+
+#cart_summary {
+    background-color: rgba(255, 239, 246, 1);
+    border: 1px solid #845F6E;
+}
+
+#cart_contents_div{
+    top: 220px;
+}
+
+#cart_columns{
+    position: absolute;
+    top: 220px;
+    height: 78px;
+}
+
+.cart_header {
+    display: inline-block;
+    margin-right: 73px;
+    margin-left: 20px;
+}
+
+.cart_header_item {
+    margin-right: 180px;
+}
+
+.summary_subtotal{
+    position: absolute;
+    left: 20px;
+}
+
+
+
+.summary_tax{
+    position: absolute;
+    left: 20px;
+    top: 100px;
+}
+
+.summary_total{
+    position: absolute;
+    left: 20px;
+    top: 140px;
+}
+
+
+
+.cart_val{
+    position: absolute;
+    left: 150px;
+}
+
+#checkout_button li{
+    position: relative;
+    border: 1px solid #845F6E;
+    top: 100px;
+    right: 40px;
+
+}
+
+#cart_contents_div #cart_contents .in_cart {
+    position: absolute;
+    top: 300px;
+    left: 273px;
+}
+
+.in_cart{
+    width: 670px;
+}
+
+.in_cart h2{
+    text-align: left;
+    margin-left: 60px;
+}
+
+.in_cart .fact{
+    position: relative;
+    display: inline;
+    margin-right: 70px;
+    left: 260px;
+    top: -200px;
+}
+
+.dropdown {
+    display: inline-block;
+    background-color: white;
+}
+
+.dropdown .fact{
+    left: 15px;
+    top: 0px;
+}
+
+#cart_arrow{
+    position: relative;
+    left: -30px;
+    top: -0px;
+}

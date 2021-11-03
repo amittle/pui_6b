@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BunBun Bake Shop</title>
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rosario&family=Rouge+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id = "header-container">
+        <div id = "header">
+            <img id = "logo_img", alt = "BunBun logo", src = "Images/bunlogo.png">
+            <h1>Bun Bun Bake Shop</h1>
+            <ul id = "links">
+                <li class = "nav item"><a href = "index.html">Home</a></li>
+                <li class = "nav item"><a href = "build.html">Build-a-BunBox</a></li>
+                <li class = "nav item"><a>Location</a></li>
+            </ul>
+            <a id = "cart_link", href = "cartpage.html">
+                <img id = "cart", alt = "View Cart", src = "Images/carticon.png">
+            </a>
+
+
+        </div>
+    </header>
+    <main>
+        <div id = "build_container">
+            <div id = "sidebar", class = "left_panel">
+                <img src = "Images/info.png", id = "info">
+                <ul id = "step_labels">
+                    <li>Box Size</li>
+                    <li>Gluten Free</li>
+                    <li>Flavors</li>
+                </ul>
+
+            </div>
+            <div id = "build_field">
+                <div id = "sizes_step", class = "build_step cross_panel">
+                    <div id = "sizes_opts">
+                        <img src = "Images/1.png">
+                        <img src = "Images/3.png">
+                        <img src = "Images/6.png">
+                        <img src = "Images/12.png">
+                    </div>
+                </div>
+                <div id = "GF_step", class = "build_step">
+                    <div id = "gf_opts">
+                        <img src = "Images/Y.png">
+                        <img src = "Images/N.png">
+                    </div>
+                </div>
+                <div id = "flavors_step", class = "build_step">
+                    <div class= "drag_item", id = "original_drag">
+                        <h3> Original</h3>
+                    </div>
+
+                    <div class= "drag_item", id = "bb_drag">
+                        <h3> Blackberry</h3>
+                    </div>
+                    <div class= "drag_item", id = "walnut_drag">
+                        <h3> Walnut</h3>
+                    </div>
+                    <div class= "drag_item", id = "gf_drag">
+                        <h3> Original (gf)</h3>
+                    </div>
+                    <div class= "drag_item", id = "ps_drag">
+                        <h3> Pumpkin Spice</h3>
+                    </div>
+                    <div class= "drag_item", id = "cp_drag">
+                        <h3> Caramel Pecan</h3>
+                    </div>
+                    <div class= "drag_item", id = "sugar_drag">
+                        <h3> Sugar</h3>
+                    </div>
+                    <div class= "drag_item", id = "vanilla_drag">
+                        <h3> Vanilla</h3>
+                    </div>
+                    <div class= "drag_item", id = "chocolate_drag">
+                        <h3> Chocolate</h3>
+                    </div>
+                    <div class= "drag_item", id = "noglaze_drag">
+                        <h3> None</h3>
+                    </div>
+                    <img src = "Images/size_drop.png" id = "drop_zone">
+                    <img src = "Images/undo.png" id = "undo">
+                    <h2><span class = "light">Bun Flavors</span> Drag and Drop</h2>
+                    <h2><span class = "light">Glaze Flavors</span> Drag and Drop</h2>
+                    <div id = "add_cart">
+                        <h3>Add to Cart</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+
+</html>

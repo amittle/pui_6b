@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BunBun Bake Shop</title>
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rosario&family=Rouge+Script&display=swap" rel="stylesheet">
+    <!--source-->
+    <script defer src = "product.js"></script>
+</head>
+<body>
+    <header id = "header-container">
+        <div id = "header">
+            <img id = "logo_img", alt = "BunBun logo", src = "Images/bunlogo.png">
+            <h1>Bun Bun Bake Shop</h1>
+            <ul id = "links">
+                <li class = "nav item"><a href = "index.html">Home</a></li>
+                <li class = "nav item"><a href = "build.html">Build-a-BunBox</a></li>
+                <li class = "nav item"><a>Location</a></li>
+            </ul>
+            <a id = "cart_link", href = "cartpage.html">
+                <h4 id = "cart_num">0</h4>
+                <img id = "cart", alt = "View Cart", src = "Images/carticon.png">
+    
+            </a>
+
+
+        </div>
+    </header>
+    <main>
+        <div class = "popup_container">
+            
+            <a href = "index.html" >
+                <img src = "Images/x.png", id = "x_out", alt = "x">
+            </a>
+            <div class = "popup", id = "buy_walnut">
+                <img src = "Images/bunimage_walnut.png", id = "popup_img", alt = "walnut">
+                <div id = "popup_info">
+                    <h2>Walnut</h2>
+                    <h3>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt 
+                        ut labore et dolore magna aliqua.
+                    </h3>
+                    <div id = "glaze_drop">
+                        <h3>Glaze</h3>
+                        <div id = "drop_down1" onclick = "switchGlaze()">
+                            <h4 class = "droptext drop_comp" id = "glaze_value">NONE</h4>
+                        </div>
+                        </div>
+                    <div id = "cart_drop">
+                        <h3 onclick = "addCart()">Add to Cart</h3>
+                        <div id = "drop_down2" onclick = "switchQuant()">
+                            <h4 id = "price", class = "drop_comp">$3.99</h4>
+                            <h4 class = "droptext drop_comp" id = "quant_value">1</h4>                           
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+        <div id = "About Us">
+            <h2>About Us</h2>
+            <img src = "Images/downarrow.png" id = "about_arrow" alt = "down">
+        </div>
+        
+        <div id = "Products">
+            <div class = "Listing", id = "Original_Listing">
+                <img src = "Images/bunimage.png" class = "product_pic" id = "og_pic" alt = "original">
+                <h2>Original</h2>
+            </div>
+            <div class = "Listing", id = "Berry_Listing">
+                <img src = "Images/bunimage_blackberry.png" alt = "blackberry" class = "product_pic" id = "berry_pic">
+                <h2>Blackberry</h2>
+            </div>
+            <div class = "Listing", id = "Walnut_Listing">
+                <img src = "Images/bunimage_walnut.png" alt = "walnut" class = "product_pic" id = "walnut_pic">
+                <h2>Walnut</h2>
+            </div>
+            <div class = "Listing" id = "GF_Listing">
+                <img src = "Images/bunimage.png" alt = "gluten free original" class = "product_pic" id = "gf_pic">
+                <h2>Original <span class = "gf">GF</span></h2>
+            </div>
+            <div class = "Listing" id = "PS_Listing">
+                <img src = "Images/bunimage_ps.png" alt = "pumpkin spice",
+                class = "product_pic" id = "ps_pic">
+                <h2>Pumpkin Spice</h2>
+            </div>
+            <div class = "Listing" id = "CP_Listing">
+                <img src = "Images/bunimage_cp.png" alt = "caramel pecan" class = "product_pic" id = "cp_pic">
+                <h2>Caramel Pecan</h2>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+
+</html>

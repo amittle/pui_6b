@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BunBun Bake Shop</title>
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rosario&family=Rouge+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id = "header-container">
+        <div id = "header">
+            <img id = "logo_img", alt = "BunBun logo", src = "Images/bunlogo.png">
+            <h1>Bun Bun Bake Shop</h1>
+            <ul id = "links">
+                <li class = "nav item"><a href = "index.html">Home</a></li>
+                <li class = "nav item"><a href = "build.html">Build-a-BunBox</a></li>
+                <li class = "nav item"><a>Location</a></li>
+            </ul>
+            <a id = "cart_link", href = "cartpage.html">
+                <img id = "cart", alt = "View Cart", src = "Images/carticon.png">
+            </a>
+
+
+        </div>
+    </header>
+    <main>
+        <div id = "cart_summary" class = "left_panel">
+            <p class = "cart_header">Cart</p>
+            <h3 class = "summary_subtotal">Subtotal, </h3>
+            <h3 class = "summary_subtotal cart_val">$10.99</h3>
+
+            <h3 class = "summary_tax">Tax, </h3>
+            <h3 class = "summary_tax cart_val">$00.21</h3>
+
+            <h3 class = "summary_total">Total, </h3>
+            <h3 class = "summary_total cart_val">$11.20</h3>
+
+            <ul id = "checkout_button"><li><a>Checkout</a></li></ul>
+
+        </div>
+        <div id = "cart_contents_div">
+            <div id = "cart_columns", class = "cross_panel">
+                <p class = "cart_header cart_header_item">Item</p>
+                <p class = "cart_header">Price</p>
+                <p class = "cart_header">Qty</p>
+                <p class = "cart_header">Subtotal</p>
+            </div>
+            <div id = "cart_contents">
+                <template id = "Listing_template">
+                    <div class = "Listing in_cart">
+                        <img src = "Images/bunimage_walnut.png" alt = "walnut" class = "product_pic" id = "walnut_pic">
+                        <h2>Walnut</h2>
+    
+                        <h3 class = "fact">$3.99</h3>
+                        <div class = "fact dropdown">
+                            <h3 class = "fact">3</h3>
+                            <img src = "Images/downarrow.png" id = "cart_arrow">
+                        </div>
+                        <h3 class = "fact">$10.99</h3>
+    
+                    </div>
+
+                </template>
+                
+            </div>
+        </div>
+        
+    </main>
+
+</body>
+
+
+</html>
