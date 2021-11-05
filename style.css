@@ -530,6 +530,7 @@ span.light{
 }
 
 .in_cart{
+    display: block;
     width: 670px;
 }
 
