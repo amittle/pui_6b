@@ -466,18 +466,23 @@ span.light{
 }
 
 #cart_contents_div{
+    position: relative;
     top: 220px;
+    left: 264px;
 }
 
 #cart_columns{
     position: absolute;
-    top: 220px;
+    background-color: rgba(255, 239, 246, 1);
+    border: 1px solid #845F6E;
+    top: -8px;
+    width: 680px;
     height: 78px;
 }
 
 .cart_header {
     display: inline-block;
-    margin-right: 73px;
+    margin-right: 60px;
     margin-left: 20px;
 }
 
@@ -519,10 +524,9 @@ span.light{
 
 }
 
-#cart_contents_div #cart_contents .in_cart {
-    position: absolute;
-    top: 300px;
-    left: 273px;
+#cart_contents{
+    position: relative;
+    top: 85px;
 }
 
 .in_cart{

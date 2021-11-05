@@ -21,7 +21,9 @@
                 <li class = "nav item"><a>Location</a></li>
             </ul>
             <a id = "cart_link", href = "cartpage.html">
+                <h4 id = "cart_num">0</h4>
                 <img id = "cart", alt = "View Cart", src = "Images/carticon.png">
+    
             </a>
 
 
@@ -43,25 +45,24 @@
 
         </div>
         <div id = "cart_contents_div">
-            <div id = "cart_columns", class = "cross_panel">
+            <div id = "cart_columns">
                 <p class = "cart_header cart_header_item">Item</p>
-                <p class = "cart_header">Price</p>
+                <p class = "cart_header">Glaze</p>
                 <p class = "cart_header">Qty</p>
                 <p class = "cart_header">Subtotal</p>
             </div>
             <div id = "cart_contents">
                 <template id = "Listing_template">
                     <div class = "Listing in_cart">
-                        <img src = "Images/bunimage_walnut.png" alt = "walnut" class = "product_pic" id = "walnut_pic">
+                        <img src = "Images/bunimage_walnut.png" alt = "walnut" class = "product_pic">
                         <h2>Walnut</h2>
     
-                        <h3 class = "fact">$3.99</h3>
+                        <h3 class = "fact glaze">No Glaze</h3>
                         <div class = "fact dropdown">
-                            <h3 class = "fact">3</h3>
-                            <img src = "Images/downarrow.png" id = "cart_arrow">
+                            <h3 class = "fact quant">3</h3>
                         </div>
-                        <h3 class = "fact">$10.99</h3>
-    
+                        <h3 class = "fact price">$10.99</h3>
+                        <img src = "Images/x.png", class = "remove_x fact", alt = "x">
                     </div>
 
                 </template>
@@ -72,6 +73,11 @@
     </main>
 
 </body>
+<footer>
+    <!--source-->
+    <script src = "main.js"></script>
+    <script src = "cart.js"></script>
+</footer>
 
 
 </html>

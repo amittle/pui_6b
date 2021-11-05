@@ -65,6 +65,8 @@ function addCart() {
 
 let cart = initMemory();
 
+localStorage.setItem('storedCart', JSON.stringify(cart));
+
 let cart_size = document.getElementById("cart_num");
 
 
