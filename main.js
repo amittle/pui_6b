@@ -1,5 +1,4 @@
 function initMemory() {
-    console.log("initMemory")
 
     const storedCart = JSON.parse(localStorage.getItem('storedCart'));
     let cart;

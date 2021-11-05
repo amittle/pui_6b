@@ -33,13 +33,13 @@
         <div id = "cart_summary" class = "left_panel">
             <p class = "cart_header">Cart</p>
             <h3 class = "summary_subtotal">Subtotal, </h3>
-            <h3 class = "summary_subtotal cart_val">$10.99</h3>
+            <h3 class = "summary_subtotal cart_val" id = "cart_subtotal_val">$10.99</h3>
 
             <h3 class = "summary_tax">Tax, </h3>
-            <h3 class = "summary_tax cart_val">$00.21</h3>
+            <h3 class = "summary_tax cart_val" id = "cart_tax_val">$00.21</h3>
 
             <h3 class = "summary_total">Total, </h3>
-            <h3 class = "summary_total cart_val">$11.20</h3>
+            <h3 class = "summary_total cart_val" id = cart_total_val>$11.20</h3>
 
             <ul id = "checkout_button"><li><a>Checkout</a></li></ul>
 
@@ -62,7 +62,7 @@
                             <h3 class = "fact quant">3</h3>
                         </div>
                         <h3 class = "fact price">$10.99</h3>
-                        <img src = "Images/x.png", class = "remove_x fact", alt = "x">
+                        <img src = "Images/x.png", class = "remove_x fact", alt = "x" onclick = "removeCart(this.id)">
                     </div>
 
                 </template>
